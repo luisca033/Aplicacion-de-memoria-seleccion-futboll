@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication36;
+
+/**
+ *
+ * @author Luis
+ */
+public class futbolista extends datos_seleccion
+{   
+    private int anios;
+    
+
+    public futbolista(String Cargo, int ID, String Nombre, String Apellido, int Edad,int dor) {
+        super(Cargo, ID, Nombre, Apellido, Edad);
+                this.id = ID;
+		this.Nombre = Nombre;
+		this.Apellidos = Apellidos;
+		this.Edad = Edad;
+                this.Cargo=Cargo;
+                this.anios=dor;
+    }
+}
